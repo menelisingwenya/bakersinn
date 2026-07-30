@@ -23,10 +23,10 @@ export default function Recipes() {
           <p className="mt-[30px] text-gold font-heading text-[44px] font-bold leading-[1.1] tracking-[-0.8px] max-[1500px]:text-[38px] max-sm:text-[28px] max-sm:mt-[22px]">@The_Bakers_Inn</p>
         </div>
         <div className="grid grid-cols-2 gap-[14px] self-start max-[1100px]:w-[min(100%,780px)] max-[1100px]:mx-auto max-sm:gap-[10px]">
-          <div className="h-[424px] overflow-hidden max-[1500px]:h-[360px] max-sm:h-[210px]"><img src="/asset/Baker's Inn Zimbabwe_files/bunfinal.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
-          <div className="h-[424px] overflow-hidden max-[1500px]:h-[360px] max-sm:h-[210px]"><img src="/asset/Baker's Inn Zimbabwe_files/plate.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
-          <div className="h-[258px] overflow-hidden max-[1500px]:h-[220px] max-sm:h-[150px]"><img src="/asset/Baker's Inn Zimbabwe_files/bunslices.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
-          <div className="h-[258px] overflow-hidden max-[1500px]:h-[220px] max-sm:h-[150px]"><img src="/asset/Baker's Inn Zimbabwe_files/recipes banner.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
+          <div className="h-[424px] overflow-hidden max-[1500px]:h-[360px] max-sm:h-[210px]"><img src="/asset/factory bread.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
+          <div className="h-[424px] overflow-hidden max-[1500px]:h-[360px] max-sm:h-[210px]"><img src="/asset/contactstore.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
+          <div className="h-[258px] overflow-hidden max-[1500px]:h-[220px] max-sm:h-[150px]"><img src="/asset/cream.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
+          <div className="h-[258px] overflow-hidden max-[1500px]:h-[220px] max-sm:h-[150px]"><img src="/asset/groupheader bread.png" alt="" className="block w-full h-full object-cover rounded-[8px]" /></div>
         </div>
       </section>
 

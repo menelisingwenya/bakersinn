@@ -5,7 +5,7 @@ const coreValues = [
   { image: '/asset/respect.png', title: 'Respect', text: 'We build self-esteem by treating each other fairly,communicating directly and respectfully. We have empathy discipline and build onour diversity as a source of strength, creativity and innovation.' },
   { image: '/asset/integrity.png', title: 'integrity', text: 'We uphold the highest professional and ethical standards.We guard the reputaion of our brands. Our promises are bankable.', lower: true },
   { image: '/asset/commitment.png', title: 'Commitment', text: 'We are accountable to our stakeholders and commit to deliver wat we promise. We translate plans into actions; strategies into achievements and tangible returns.' },
-  { image: '/asset/Baker\'s Inn Zimbabwe_files/excellence.png', title: 'Excellence', text: 'We strive to be the best in our business. We improve all the time, In all aspects and passionately deliver at the highest level.We offer superior value and present our offering with pride.' },
+  { image: '/asset/cream.png', title: 'Excellence', text: 'We strive to be the best in our business. We improve all the time, In all aspects and passionately deliver at the highest level.We offer superior value and present our offering with pride.' },
 ]
 
 export default function About() {
@@ -25,8 +25,8 @@ export default function About() {
       <section className="px-[94px] pt-[48px] max-[1500px]:px-[42px] max-md:px-[20px] max-sm:px-[16px]">
         <div className="grid grid-cols-2 gap-[56px] p-[64px_72px] rounded-[8px] bg-[#f7f4e2] max-md:grid-cols-1 max-md:gap-[30px] max-md:p-[34px_28px] max-sm:p-[28px_20px] max-[560px]:p-[24px_16px]">
           {[
-            { icon: '/asset/Baker\'s Inn Zimbabwe_files/our mission flag.png', title: 'Our Mission', text: 'To sharpen our edge in the manufacture and marketing of quality baked products' },
-            { icon: '/asset/Baker\'s Inn Zimbabwe_files/our vision eye.png', title: 'Our Vision', text: 'To provide a nourishing, convinient and accessible answer to hunger\'s call' },
+            { icon: '/asset/groupheader bread.png', title: 'Our Mission', text: 'To sharpen our edge in the manufacture and marketing of quality baked products' },
+            { icon: '/asset/ceo.png', title: 'Our Vision', text: 'To provide a nourishing, convinient and accessible answer to hunger\'s call' },
           ].map((item, i) => (
             <article key={i} className="flex items-center gap-[34px] max-md:gap-[24px] max-sm:flex-col max-sm:gap-[18px]">
               <div className="flex items-center justify-center w-[144px] h-[144px] flex-shrink-0 rounded-full bg-[#cfab5c] max-md:w-[118px] max-md:h-[118px] max-md:flex-shrink-0 max-sm:w-[96px] max-sm:h-[96px] max-[560px]:w-[96px] max-[560px]:h-[96px]">
@@ -83,7 +83,7 @@ export default function About() {
             </p>
             <div className="flex items-end justify-end gap-[10px] mt-[22px] flex-wrap">
               <span className="text-[#2d237d] font-heading text-[40px] font-bold leading-none tracking-[-1px] max-md:text-[30px] max-[560px]:text-[26px]">C:E:O:</span>
-              <img src="/asset/Baker's Inn Zimbabwe_files/signature.png" alt="CEO signature" className="block w-[330px] max-w-full pb-[6px] border-b border-[#d1d5f6] max-[560px]:w-[220px] max-[560px]:w-[190px]" />
+              <img src="/asset/bakersinnlogo.png" alt="CEO signature" className="block w-[330px] max-w-full pb-[6px] border-b border-[#d1d5f6] max-[560px]:w-[220px] max-[560px]:w-[190px]" />
             </div>
           </div>
         </div>
